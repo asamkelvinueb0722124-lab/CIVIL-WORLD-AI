@@ -1,0 +1,20 @@
+{
+  "name": "civil-world-ai-backend",
+  "version": "1.0.0",
+  "description": "Render-compatible Node.js backend for CIVIL WORLD AI: Entitlements, Universal Trial, and Gemini AI Engine",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
+
